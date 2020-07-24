@@ -73,10 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */,
+				45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */,
 				4517A0C224CB0D4D009055F4 /* PopularCollectionViewCell.swift */,
 				4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */,
 				4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */,
-				45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */,
 			);
 			path = "MAIN PAGE";
 			sourceTree = "<group>";
