@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4517A0C324CB0D4D009055F4 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0C224CB0D4D009055F4 /* PopularCollectionViewCell.swift */; };
+		4517A0C524CB0D90009055F4 /* PopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */; };
+		4517A0C724CB0DCB009055F4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */; };
 		45F0951D247D234500B84F39 /* RecommendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */; };
 		45F0951F247D264B00B84F39 /* RecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */; };
 		52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2111E7F0D990064B02E /* AppDelegate.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4517A0C224CB0D4D009055F4 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
+		4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationTableViewCell.swift; sourceTree = "<group>"; };
 		45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationCollectionViewCell.swift; sourceTree = "<group>"; };
 		52E3D20E1E7F0D990064B02E /* Library Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */,
+				4517A0C224CB0D4D009055F4 /* PopularCollectionViewCell.swift */,
+				4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */,
+				4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */,
 				45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */,
 			);
 			path = "MAIN PAGE";
@@ -229,11 +238,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E3D2241E7F0DAD0064B02E /* Book.swift in Sources */,
+				4517A0C524CB0D90009055F4 /* PopularTableViewCell.swift in Sources */,
 				52F7B6131E7F955D00735A46 /* ShoppingBagTableViewController.swift in Sources */,
 				52E3D2351E7F442B0064B02E /* BookDetailCell.swift in Sources */,
 				52E3D2141E7F0D990064B02E /* ViewController.swift in Sources */,
 				52FDBCE51E8771FB00A59876 /* BookImagesPageViewController.swift in Sources */,
 				52FDBCE31E87718D00A59876 /* BookImageViewController.swift in Sources */,
+				4517A0C324CB0D4D009055F4 /* PopularCollectionViewCell.swift in Sources */,
+				4517A0C724CB0DCB009055F4 /* MainTableViewController.swift in Sources */,
 				52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */,
 				52E3D2281E7F14320064B02E /* FeedBookTableViewCell.swift in Sources */,
 				45F0951D247D234500B84F39 /* RecommendationTableViewCell.swift in Sources */,
