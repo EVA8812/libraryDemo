@@ -118,9 +118,9 @@ extension MainTableViewController
         }
         if indexPath.row == 3 {
             if let cell = cell as? PopularTableViewCell {
-                cell.collectionView.dataSource = self
-                cell.collectionView.delegate = self
-                cell.collectionView.reloadData()
+                cell.collectionView1.dataSource = self
+                cell.collectionView1.delegate = self
+                cell.collectionView1.reloadData()
                 //cell.collectionView.isScrollEnabled = false
             }
         }
