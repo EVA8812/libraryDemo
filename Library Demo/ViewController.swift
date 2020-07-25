@@ -9,6 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var btnSignIn: UIButton!
+    
+    
+
+    @IBAction func onClickSignIn(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "singin", sender: self)
+        
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
