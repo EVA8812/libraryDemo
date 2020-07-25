@@ -10,15 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var btnSignIn: UIButton!
+    
+
+    @IBOutlet weak var signIn: UIButton!
     
     
 
-    @IBAction func onClickSignIn(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "singin", sender: self)
-        
-    }
-    
     
 
     override func viewDidLoad() {
