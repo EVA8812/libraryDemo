@@ -11,6 +11,7 @@
 		4517A0C524CB0D90009055F4 /* PopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */; };
 		4517A0C724CB0DCB009055F4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */; };
 		4517A0CB24CC7838009055F4 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0CA24CC7838009055F4 /* SigninViewController.swift */; };
+		4517A0CE24CC9A70009055F4 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0CD24CC9A70009055F4 /* UITextField.swift */; };
 		45F0951D247D234500B84F39 /* RecommendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */; };
 		45F0951F247D264B00B84F39 /* RecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */; };
 		52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2111E7F0D990064B02E /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 		4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
 		4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		4517A0CA24CC7838009055F4 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		4517A0CD24CC9A70009055F4 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationTableViewCell.swift; sourceTree = "<group>"; };
 		45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationCollectionViewCell.swift; sourceTree = "<group>"; };
 		52E3D20E1E7F0D990064B02E /* Library Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4517A0CC24CC9A42009055F4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4517A0CA24CC7838009055F4 /* SigninViewController.swift */,
+				4517A0CD24CC9A70009055F4 /* UITextField.swift */,
+				52E3D2131E7F0D990064B02E /* ViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		45F09520247E335700B84F39 /* MAIN PAGE */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +116,8 @@
 			children = (
 				52E3D21D1E7F0D990064B02E /* Info.plist */,
 				52E3D2111E7F0D990064B02E /* AppDelegate.swift */,
-				4517A0CA24CC7838009055F4 /* SigninViewController.swift */,
-				52E3D2131E7F0D990064B02E /* ViewController.swift */,
 				52E3D2151E7F0D990064B02E /* Main.storyboard */,
+				4517A0CC24CC9A42009055F4 /* Login */,
 				52E3D2331E7F43FD0064B02E /* MODEL */,
 				45F09520247E335700B84F39 /* MAIN PAGE */,
 				52E3D2321E7F43DB0064B02E /* DETAIL */,
@@ -256,6 +267,7 @@
 				52E3D2261E7F136C0064B02E /* FeedTableViewController.swift in Sources */,
 				52FDBCE71E877B0A00A59876 /* BookImagesHeaderView.swift in Sources */,
 				52E3D22E1E7F32FD0064B02E /* BookDetailTableViewController.swift in Sources */,
+				4517A0CE24CC9A70009055F4 /* UITextField.swift in Sources */,
 				4517A0CB24CC7838009055F4 /* SigninViewController.swift in Sources */,
 				45F0951F247D264B00B84F39 /* RecommendationCollectionViewCell.swift in Sources */,
 				52F7B6161E7F9F7E00735A46 /* CheckoutTableViewController.swift in Sources */,

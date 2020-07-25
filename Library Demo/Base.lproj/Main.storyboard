@@ -296,7 +296,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="dmj-Zy-qXT" customClass="BookImagesPageViewController" customModule="Library_Demo" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIL-ja-Z6U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2937" y="-973"/>
+            <point key="canvasLocation" x="3282" y="30"/>
         </scene>
         <!--Book Image View Controller-->
         <scene sceneID="Izu-0s-tRa">
@@ -328,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gj-Og-oLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3608.8000000000002" y="-940.47976011994012"/>
+            <point key="canvasLocation" x="3820" y="-737"/>
         </scene>
         <!--Main Table View Controller-->
         <scene sceneID="ChV-Yy-zHj">
@@ -641,7 +641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1Q-ER-pl6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-707.24637681159425" y="-158.03571428571428"/>
+            <point key="canvasLocation" x="-1748" y="-127"/>
         </scene>
         <!--Signin View Controller-->
         <scene sceneID="6LM-xA-CKR">
@@ -705,7 +705,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUA-Js-oCy">
                                                 <rect key="frame" x="55" y="366" width="305" height="47"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.256802663148535" green="0.6568432950146732" blue="0.94824636707474874" alpha="0.49502354452054792" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.22366603853447259" green="0.49264483709487067" blue="0.77730331504429184" alpha="0.49502354452054792" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <state key="normal" title="Login">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -719,8 +719,8 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Register"/>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="F80-fL-dMb">
-                                                <rect key="frame" x="113" y="41.5" width="189" height="100"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="F80-fL-dMb">
+                                                <rect key="frame" x="126" y="42" width="162" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
@@ -762,7 +762,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoH-GI-fgy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="95.652173913043484" y="-147.32142857142856"/>
+            <point key="canvasLocation" x="-797.10144927536237" y="-106.47321428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nux-y9-cqf">
@@ -784,7 +784,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8CX-FB-2m5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1434.7826086956522" y="-429.24107142857139"/>
+            <point key="canvasLocation" x="852" y="-400"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7GX-w9-QPR">
@@ -1441,7 +1441,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ShT-FI-KHO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1674" y="-141"/>
+            <point key="canvasLocation" x="-2528" y="-127"/>
         </scene>
     </scenes>
     <resources>
@@ -1455,7 +1455,7 @@
         <image name="icon-plus" width="24" height="24"/>
         <image name="j1" width="682" height="698"/>
         <image name="lib4" width="328" height="686"/>
-        <image name="person.crop.circle" catalog="system" width="64" height="60"/>
+        <image name="login" width="512" height="512"/>
         <image name="s1" width="703" height="695"/>
         <image name="t1" width="682" height="698"/>
     </resources>

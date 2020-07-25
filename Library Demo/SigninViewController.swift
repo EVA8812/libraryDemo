@@ -16,10 +16,9 @@ class SigninViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
+        txtEmail.addRightView(image: #imageLiteral(resourceName: "mail"))
+        tvtPassword.addRightView(image: #imageLiteral(resourceName: "eye"), isSecure: true)
     }
-
 
     
 
