@@ -18,6 +18,8 @@ class ShoppingBagTableViewController: UITableViewController
         static let cartDetailCell = "cartDetailCell"            // cell 2
         static let cartTotalCell = "cartTotalCell"              // cell 3
         static let checkoutButtonCell = "checkoutButtonCell"    // cell 4
+        static let friendCell = "FriendCell"
+        
     }
     
     var books: [Book]? = Book.fetchbooks()
@@ -42,7 +44,7 @@ extension ShoppingBagTableViewController
 {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let books = books {
-            return books.count + 4
+            return books.count + 5
         } else {
             return 1
         }
@@ -76,7 +78,12 @@ extension ShoppingBagTableViewController
             let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.checkoutButtonCell, for: indexPath)
             
             return cell
-        } else {
+        } else if indexPath.row == books.count + 4 {
+            // friendCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.friendCell, for: indexPath)
+            
+            return cell
+        }else {
             // itemCell
             let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.itemCell, for: indexPath) as! ShoppingCartItemCell
             cell.book = books[indexPath.row - 1]
