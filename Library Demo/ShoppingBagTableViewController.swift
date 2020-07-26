@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import StoreKit
+
 
 class ShoppingBagTableViewController: UITableViewController
 {
@@ -26,6 +28,14 @@ class ShoppingBagTableViewController: UITableViewController
         self.tableView.estimatedRowHeight = tableView.rowHeight
         tableView.rowHeight = UITableViewAutomaticDimension
     }
+    @IBAction func ratingAction(_ sender: UIButton) {
+           if #available(iOS 10.3, *) {
+               SKStoreReviewController.requestReview()
+           } else {
+               // Fallback on earlier versions
+           }
+       }
+       
 }
 
 extension ShoppingBagTableViewController
@@ -42,14 +52,14 @@ extension ShoppingBagTableViewController
     {
         guard let books = books else {
             let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.numberOfItemsCell, for: indexPath) as! NumberOfItemsCell
-            cell.numberOfItemsLabel.text = "\(0) ITEM"
+            cell.numberOfItemsLabel.text = "Rate Your Books"
             
             return cell
         }
         
         if indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.numberOfItemsCell, for: indexPath) as! NumberOfItemsCell
-            cell.numberOfItemsLabel.text = "\(books.count) ITEMS"
+            cell.numberOfItemsLabel.text = "Rate Your Books"
             return cell
         } else if indexPath.row == books.count + 1 {
             // cartDetailCell
