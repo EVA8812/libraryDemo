@@ -6,10 +6,10 @@
 //  Copyright © 2020 Developers Academy. All rights reserved.
 //
 
-import UIKit
-
-class MainTableViewController: UITableViewController
-{
+//import UIKit
+//
+//class MainTableViewController: UITableViewController
+//{
 //    var book: Book!
 //    
 //    //@IBOutlet weak var bookImagesHeaderView: BookImagesHeaderView!
@@ -165,4 +165,4 @@ class MainTableViewController: UITableViewController
 //        }
 //        return UICollectionViewCell()
 //}
-}
+//}

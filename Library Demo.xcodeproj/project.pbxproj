@@ -12,6 +12,9 @@
 		4517A0C724CB0DCB009055F4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */; };
 		4517A0CB24CC7838009055F4 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0CA24CC7838009055F4 /* SigninViewController.swift */; };
 		4517A0CE24CC9A70009055F4 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0CD24CC9A70009055F4 /* UITextField.swift */; };
+		4517A0D024CD46A2009055F4 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0CF24CD46A2009055F4 /* MainPageViewController.swift */; };
+		4517A0D624CD546C009055F4 /* MainPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0D524CD546C009055F4 /* MainPageTableViewCell.swift */; };
+		4517A0D824CD5FE9009055F4 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0D724CD5FE9009055F4 /* MainCollectionViewCell.swift */; };
 		45F0951D247D234500B84F39 /* RecommendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */; };
 		45F0951F247D264B00B84F39 /* RecommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */; };
 		52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2111E7F0D990064B02E /* AppDelegate.swift */; };
@@ -39,6 +42,9 @@
 		4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		4517A0CA24CC7838009055F4 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		4517A0CD24CC9A70009055F4 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		4517A0CF24CD46A2009055F4 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		4517A0D524CD546C009055F4 /* MainPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageTableViewCell.swift; sourceTree = "<group>"; };
+		4517A0D724CD5FE9009055F4 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		45F0951C247D234500B84F39 /* RecommendationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationTableViewCell.swift; sourceTree = "<group>"; };
 		45F0951E247D264B00B84F39 /* RecommendationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationCollectionViewCell.swift; sourceTree = "<group>"; };
 		52E3D20E1E7F0D990064B02E /* Library Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +97,9 @@
 				4517A0C224CB0D4D009055F4 /* PopularCollectionViewCell.swift */,
 				4517A0C424CB0D90009055F4 /* PopularTableViewCell.swift */,
 				4517A0C624CB0DCB009055F4 /* MainTableViewController.swift */,
+				4517A0CF24CD46A2009055F4 /* MainPageViewController.swift */,
+				4517A0D524CD546C009055F4 /* MainPageTableViewCell.swift */,
+				4517A0D724CD5FE9009055F4 /* MainCollectionViewCell.swift */,
 			);
 			path = "MAIN PAGE";
 			sourceTree = "<group>";
@@ -259,6 +268,7 @@
 				52FDBCE51E8771FB00A59876 /* BookImagesPageViewController.swift in Sources */,
 				52FDBCE31E87718D00A59876 /* BookImageViewController.swift in Sources */,
 				4517A0C324CB0D4D009055F4 /* PopularCollectionViewCell.swift in Sources */,
+				4517A0D024CD46A2009055F4 /* MainPageViewController.swift in Sources */,
 				4517A0C724CB0DCB009055F4 /* MainTableViewController.swift in Sources */,
 				52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */,
 				52E3D2281E7F14320064B02E /* FeedBookTableViewCell.swift in Sources */,
@@ -269,9 +279,11 @@
 				52E3D22E1E7F32FD0064B02E /* BookDetailTableViewController.swift in Sources */,
 				4517A0CE24CC9A70009055F4 /* UITextField.swift in Sources */,
 				4517A0CB24CC7838009055F4 /* SigninViewController.swift in Sources */,
+				4517A0D824CD5FE9009055F4 /* MainCollectionViewCell.swift in Sources */,
 				45F0951F247D264B00B84F39 /* RecommendationCollectionViewCell.swift in Sources */,
 				52F7B6161E7F9F7E00735A46 /* CheckoutTableViewController.swift in Sources */,
 				52FB4BDF1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift in Sources */,
+				4517A0D624CD546C009055F4 /* MainPageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
