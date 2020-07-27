@@ -120,6 +120,17 @@
 			name = Library;
 			sourceTree = "<group>";
 		};
+		45A2235C24CF3D3100993FF5 /* Dcard */ = {
+			isa = PBXGroup;
+			children = (
+				45A2235824CF2C6100993FF5 /* PostDetail.swift */,
+				45A2235A24CF2C8400993FF5 /* PostDetailViewController.swift */,
+				45A2235024CF234B00993FF5 /* PostTableViewCell.swift */,
+				45A2235224CF238A00993FF5 /* PostTableViewController.swift */,
+			);
+			name = Dcard;
+			sourceTree = "<group>";
+		};
 		45F09520247E335700B84F39 /* MAIN PAGE */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,12 +163,9 @@
 			children = (
 				52E3D21D1E7F0D990064B02E /* Info.plist */,
 				52E3D2111E7F0D990064B02E /* AppDelegate.swift */,
-				52E3D2151E7F0D990064B02E /* Main.storyboard */,
-				45A2235824CF2C6100993FF5 /* PostDetail.swift */,
-				45A2235A24CF2C8400993FF5 /* PostDetailViewController.swift */,
-				45A2235024CF234B00993FF5 /* PostTableViewCell.swift */,
 				45A2235624CF241A00993FF5 /* SceneDelegate.swift */,
-				45A2235224CF238A00993FF5 /* PostTableViewController.swift */,
+				52E3D2151E7F0D990064B02E /* Main.storyboard */,
+				45A2235C24CF3D3100993FF5 /* Dcard */,
 				45A2234F24CF1C8A00993FF5 /* Library */,
 				52E3D2331E7F43FD0064B02E /* MODEL */,
 				4517A0CC24CC9A42009055F4 /* Login */,
