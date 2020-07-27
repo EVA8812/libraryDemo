@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rpm-QF-OXk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9Cd-Zd-EDU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -244,7 +244,7 @@
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <subviews>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f1" translatesAutoresizingMaskIntoConstraints="NO" id="mLN-ib-bic">
-                                                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="200.00000000000011" height="200"/>
                                                             </imageView>
                                                         </subviews>
                                                     </view>
@@ -362,14 +362,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecommendationCell" id="YEm-qk-tFh">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44.5"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YEm-qk-tFh" id="VmX-Ch-BW6">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECOMMENDATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTt-UZ-nhV">
-                                            <rect key="frame" x="16" y="10" width="126" height="24.5"/>
+                                            <rect key="frame" x="16" y="10" width="126" height="24"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -383,7 +383,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecommendationBookCell" rowHeight="169" id="0y5-N1-fhi" customClass="RecommendationTableViewCell" customModule="Library_Demo" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72.5" width="375" height="169"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="169"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0y5-N1-fhi" id="4eQ-pR-y6j">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="169"/>
@@ -437,14 +437,14 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PopularCell" id="RaL-Re-SKr">
-                                <rect key="frame" x="0.0" y="241.5" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="241" width="375" height="44.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RaL-Re-SKr" id="4y2-N8-mhH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULAR BOOKS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0w-jZ-PbR">
-                                            <rect key="frame" x="16" y="10" width="109.5" height="24"/>
+                                            <rect key="frame" x="16" y="10" width="109.5" height="24.5"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -502,14 +502,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="PlA-qM-mK3">
-                                <rect key="frame" x="0.0" y="454.5" width="375" height="44.5"/>
+                                <rect key="frame" x="0.0" y="454.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PlA-qM-mK3" id="P2g-Ww-zT9">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOT AUTHORS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ao7-Rk-hIM">
-                                            <rect key="frame" x="16" y="10" width="90" height="24.5"/>
+                                            <rect key="frame" x="16" y="10" width="90" height="24"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -523,7 +523,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="169" id="HDs-aG-aIX">
-                                <rect key="frame" x="0.0" y="499" width="375" height="169"/>
+                                <rect key="frame" x="0.0" y="498.5" width="375" height="169"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HDs-aG-aIX" id="17u-Su-Ge2">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="169"/>
@@ -531,14 +531,14 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fWa-uS-VZa">
-                                <rect key="frame" x="0.0" y="668" width="375" height="44.5"/>
+                                <rect key="frame" x="0.0" y="667.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fWa-uS-VZa" id="GmX-P9-E2Q">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALL CATEGORIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXH-sB-84M">
-                                            <rect key="frame" x="16" y="10" width="108.5" height="24.5"/>
+                                            <rect key="frame" x="16" y="10" width="108.5" height="24"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -552,7 +552,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="169" id="Q2i-Wt-PrY">
-                                <rect key="frame" x="0.0" y="712.5" width="375" height="169"/>
+                                <rect key="frame" x="0.0" y="711.5" width="375" height="169"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q2i-Wt-PrY" id="i5g-U3-EnB">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="169"/>
@@ -843,7 +843,7 @@
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f1" translatesAutoresizingMaskIntoConstraints="NO" id="6fn-Zz-4FR">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="115" height="148"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="115.00000000000011" height="148"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="148" id="dgE-7I-b8K"/>
                                                                             <constraint firstAttribute="width" constant="115" id="lhx-CW-OKt"/>
@@ -1132,7 +1132,7 @@
                                             </constraints>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            <state key="normal" title="RATE IT!">
+                                            <state key="normal" title="Opinion Mail">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
@@ -1169,7 +1169,7 @@
             </objects>
             <point key="canvasLocation" x="1237.68115942029" y="894.64285714285711"/>
         </scene>
-        <!--CHECKOUT-->
+        <!--OPINION MAIL -->
         <scene sceneID="MQw-7h-BFE">
             <objects>
                 <tableViewController id="7jD-9Q-sTJ" customClass="CheckoutTableViewController" customModule="Library_Demo" customModuleProvider="target" sceneMemberID="viewController">
@@ -1186,8 +1186,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BILLING INFORMATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsO-Xx-QFN">
-                                            <rect key="frame" x="24" y="24" width="163.5" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Us" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsO-Xx-QFN">
+                                            <rect key="frame" x="24" y="24" width="75" height="22"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="19"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -1207,16 +1207,16 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="407"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="T9m-cn-pxc">
-                                            <rect key="frame" x="24" y="24" width="327" height="72.5"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="T9m-cn-pxc">
+                                            <rect key="frame" x="24" y="24" width="327" height="71.5"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" ambiguous="YES" text="Email Address:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-Oa-D4z">
-                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Email Address:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-Oa-D4z">
+                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="19.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" support@ductran.co" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WZy-Z7-hMC">
-                                                    <rect key="frame" x="0.0" y="28.5" width="327" height="44"/>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" support@nccu.edu.tw" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WZy-Z7-hMC">
+                                                    <rect key="frame" x="0.0" y="27.5" width="327" height="44"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="44" id="2gp-82-di0"/>
                                                     </constraints>
@@ -1224,55 +1224,22 @@
                                                     <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                                 </textField>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="71.5" id="qoV-Kr-s3E"/>
+                                            </constraints>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Vm-hQ-Wbd">
-                                            <rect key="frame" x="24" y="120" width="327" height="71.5"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Vm-hQ-Wbd">
+                                            <rect key="frame" x="24" y="119.5" width="327" height="246.5"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" ambiguous="YES" text="Card Number:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyb-eJ-K6B">
-                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="19.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Content:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyb-eJ-K6B">
+                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="38.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" 1234-5678-1234-5678" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Egd-Tp-Zwl">
-                                                    <rect key="frame" x="0.0" y="27.5" width="327" height="44"/>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Tell us about your issue so we can help you more quickly." clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Egd-Tp-Zwl">
+                                                    <rect key="frame" x="0.0" y="46.5" width="327" height="200"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="44" id="8eF-WY-KmC"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                </textField>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fbi-Xr-8qM">
-                                            <rect key="frame" x="24" y="215" width="327" height="71.5"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" ambiguous="YES" text="Expiration Date:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvf-U1-cNi">
-                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="19.5"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" MM/YY" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gbz-fj-DGP">
-                                                    <rect key="frame" x="0.0" y="27.5" width="327" height="44"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="44" id="Tzx-q1-SHj"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
-                                                </textField>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8dj-Kv-5x7">
-                                            <rect key="frame" x="24" y="311" width="327" height="71.5"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" ambiguous="YES" text="Security Code:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8B-11-xki">
-                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="19.5"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" CVC" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Zs-ah-C6p">
-                                                    <rect key="frame" x="0.0" y="27.5" width="327" height="44"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="44" id="Tnu-bW-cb1"/>
+                                                        <constraint firstAttribute="height" constant="200" id="GuG-A6-89G"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -1282,23 +1249,51 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="2Vm-hQ-Wbd" secondAttribute="trailing" constant="24" id="70C-44-Dlx"/>
-                                        <constraint firstAttribute="trailing" secondItem="8dj-Kv-5x7" secondAttribute="trailing" constant="24" id="MOj-aB-cg1"/>
-                                        <constraint firstAttribute="trailing" secondItem="fbi-Xr-8qM" secondAttribute="trailing" constant="24" id="U70-bg-w8Y"/>
-                                        <constraint firstAttribute="bottom" secondItem="8dj-Kv-5x7" secondAttribute="bottom" constant="24" id="WDc-Vm-kS6"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="2Vm-hQ-Wbd" secondAttribute="bottom" constant="30" id="HeA-qK-tgf"/>
                                         <constraint firstItem="2Vm-hQ-Wbd" firstAttribute="leading" secondItem="NY5-Jh-U7O" secondAttribute="leading" constant="24" id="bZa-8n-oqD"/>
-                                        <constraint firstItem="8dj-Kv-5x7" firstAttribute="leading" secondItem="NY5-Jh-U7O" secondAttribute="leading" constant="24" id="iKi-62-E4M"/>
-                                        <constraint firstItem="8dj-Kv-5x7" firstAttribute="top" secondItem="fbi-Xr-8qM" secondAttribute="bottom" constant="24" id="iMU-KA-vFS"/>
                                         <constraint firstAttribute="trailing" secondItem="T9m-cn-pxc" secondAttribute="trailing" constant="24" id="uNg-jj-gPO"/>
-                                        <constraint firstItem="fbi-Xr-8qM" firstAttribute="leading" secondItem="NY5-Jh-U7O" secondAttribute="leading" constant="24" id="uSe-ch-rdu"/>
                                         <constraint firstItem="2Vm-hQ-Wbd" firstAttribute="top" secondItem="T9m-cn-pxc" secondAttribute="bottom" constant="24" id="vwE-lt-AnL"/>
                                         <constraint firstItem="T9m-cn-pxc" firstAttribute="leading" secondItem="NY5-Jh-U7O" secondAttribute="leading" constant="24" id="wGg-tq-k9D"/>
                                         <constraint firstItem="T9m-cn-pxc" firstAttribute="top" secondItem="NY5-Jh-U7O" secondAttribute="top" constant="24" id="y1F-S4-Dsx"/>
-                                        <constraint firstItem="fbi-Xr-8qM" firstAttribute="top" secondItem="2Vm-hQ-Wbd" secondAttribute="bottom" constant="24" id="zDS-rL-gsO"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="submitButtonCell" rowHeight="65" id="gy2-nO-Nwt">
+                                <rect key="frame" x="0.0" y="505" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gy2-nO-Nwt" id="OZY-2r-YGe">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z99-YW-FPO">
+                                            <rect key="frame" x="12" y="12" width="351" height="41"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40.5" id="gC7-aN-sN9"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <state key="normal" title="Submit">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="3"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="z99-YW-FPO" firstAttribute="top" secondItem="OZY-2r-YGe" secondAttribute="top" constant="12" id="58O-Bl-FQu"/>
+                                        <constraint firstAttribute="bottom" secondItem="z99-YW-FPO" secondAttribute="bottom" constant="12" id="Pim-sI-4st"/>
+                                        <constraint firstItem="z99-YW-FPO" firstAttribute="leading" secondItem="OZY-2r-YGe" secondAttribute="leading" constant="12" id="guL-q3-YWq"/>
+                                        <constraint firstAttribute="trailing" secondItem="z99-YW-FPO" secondAttribute="trailing" constant="12" id="xBB-xg-lVR"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cartDetailCell" rowHeight="124" id="Xtt-qM-HbH">
-                                <rect key="frame" x="0.0" y="505" width="375" height="124"/>
+                                <rect key="frame" x="0.0" y="570" width="375" height="124"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xtt-qM-HbH" id="aPz-oo-Sj3">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
@@ -1384,7 +1379,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cartTotalCell" rowHeight="73" id="OYh-PS-odC">
-                                <rect key="frame" x="0.0" y="629" width="375" height="73"/>
+                                <rect key="frame" x="0.0" y="694" width="375" height="73"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OYh-PS-odC" id="WBK-t6-5ef">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="73"/>
@@ -1415,47 +1410,13 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="submitButtonCell" rowHeight="65" id="gy2-nO-Nwt">
-                                <rect key="frame" x="0.0" y="702" width="375" height="65"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gy2-nO-Nwt" id="OZY-2r-YGe">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z99-YW-FPO">
-                                            <rect key="frame" x="12" y="12" width="351" height="41"/>
-                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="40.5" id="gC7-aN-sN9"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
-                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            <state key="normal" title="SUBMIT ORDER">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="3"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                        </button>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="z99-YW-FPO" firstAttribute="top" secondItem="OZY-2r-YGe" secondAttribute="top" constant="12" id="58O-Bl-FQu"/>
-                                        <constraint firstAttribute="bottom" secondItem="z99-YW-FPO" secondAttribute="bottom" constant="12" id="Pim-sI-4st"/>
-                                        <constraint firstItem="z99-YW-FPO" firstAttribute="leading" secondItem="OZY-2r-YGe" secondAttribute="leading" constant="12" id="guL-q3-YWq"/>
-                                        <constraint firstAttribute="trailing" secondItem="z99-YW-FPO" secondAttribute="trailing" constant="12" id="xBB-xg-lVR"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="7jD-9Q-sTJ" id="wkd-d5-a5f"/>
                             <outlet property="delegate" destination="7jD-9Q-sTJ" id="SwL-Yb-mwA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CHECKOUT" id="cA2-7b-N7L"/>
+                    <navigationItem key="navigationItem" title="OPINION MAIL " id="cA2-7b-N7L"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="900"/>
                 </tableViewController>
@@ -1482,6 +1443,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQs-yP-4MU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1434.7826086956522" y="229.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B52-YQ-GXm">
+            <objects>
+                <viewController id="9Cd-Zd-EDU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Nt-Vm-8Ru"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sb4-gv-oZg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tAc-1b-NIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nR3-YF-Fuc">
+                                <rect key="frame" x="71" y="102" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="M35-7P-L5E">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TR6-zw-kzk">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2iP-mH-5SU">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8o-hs-m7E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2362" y="240"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="diq-YF-yfr">

@@ -31,7 +31,7 @@ class CheckoutTableViewController: UITableViewController
 extension CheckoutTableViewController
 {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 3
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
@@ -46,7 +46,7 @@ extension CheckoutTableViewController
             return cell
             
         case 2:
-            let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.cartDetailCell, for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.submitButtonCell, for: indexPath)
             return cell
             
         case 3:
@@ -54,7 +54,7 @@ extension CheckoutTableViewController
             return cell
             
         case 4:
-            let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.submitButtonCell, for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.cartDetailCell, for: indexPath)
             return cell
             
         default: return UITableViewCell()

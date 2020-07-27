@@ -44,7 +44,7 @@ extension ShoppingBagTableViewController
 {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let books = books {
-            return books.count + 5
+            return books.count + 4
         } else {
             return 1
         }
@@ -78,12 +78,7 @@ extension ShoppingBagTableViewController
             let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.checkoutButtonCell, for: indexPath)
             
             return cell
-        } else if indexPath.row == books.count + 4 {
-            // friendCell
-            let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.friendCell, for: indexPath)
-            
-            return cell
-        }else {
+        } else {
             // itemCell
             let cell = tableView.dequeueReusableCell(withIdentifier: Storyboard.itemCell, for: indexPath) as! ShoppingCartItemCell
             cell.book = books[indexPath.row - 1]
