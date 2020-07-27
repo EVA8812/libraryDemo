@@ -17,6 +17,10 @@
 		4517A0D824CD5FE9009055F4 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517A0D724CD5FE9009055F4 /* MainCollectionViewCell.swift */; };
 		45A2234624CEE60600993FF5 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2234524CEE60600993FF5 /* LibraryViewController.swift */; };
 		45A2234E24CEF87000993FF5 /* LibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2234D24CEF87000993FF5 /* LibraryCollectionViewCell.swift */; };
+		45A2235124CF234B00993FF5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2235024CF234B00993FF5 /* PostTableViewCell.swift */; };
+		45A2235324CF238A00993FF5 /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2235224CF238A00993FF5 /* PostTableViewController.swift */; };
+		45A2235524CF23AD00993FF5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2235424CF23AD00993FF5 /* Post.swift */; };
+		45A2235724CF241A00993FF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2235624CF241A00993FF5 /* SceneDelegate.swift */; };
 		52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2111E7F0D990064B02E /* AppDelegate.swift */; };
 		52E3D2141E7F0D990064B02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2131E7F0D990064B02E /* ViewController.swift */; };
 		52E3D2171E7F0D990064B02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E3D2151E7F0D990064B02E /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 		4517A0D724CD5FE9009055F4 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		45A2234524CEE60600993FF5 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		45A2234D24CEF87000993FF5 /* LibraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		45A2235024CF234B00993FF5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		45A2235224CF238A00993FF5 /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		45A2235424CF23AD00993FF5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		45A2235624CF241A00993FF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52E3D20E1E7F0D990064B02E /* Library Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E3D2111E7F0D990064B02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E3D2131E7F0D990064B02E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +149,9 @@
 				52E3D21D1E7F0D990064B02E /* Info.plist */,
 				52E3D2111E7F0D990064B02E /* AppDelegate.swift */,
 				52E3D2151E7F0D990064B02E /* Main.storyboard */,
+				45A2235024CF234B00993FF5 /* PostTableViewCell.swift */,
+				45A2235624CF241A00993FF5 /* SceneDelegate.swift */,
+				45A2235224CF238A00993FF5 /* PostTableViewController.swift */,
 				45A2234F24CF1C8A00993FF5 /* Library */,
 				52E3D2331E7F43FD0064B02E /* MODEL */,
 				4517A0CC24CC9A42009055F4 /* Login */,
@@ -177,6 +188,7 @@
 		52E3D2331E7F43FD0064B02E /* MODEL */ = {
 			isa = PBXGroup;
 			children = (
+				45A2235424CF23AD00993FF5 /* Post.swift */,
 				52E3D2231E7F0DAD0064B02E /* Book.swift */,
 			);
 			name = MODEL;
@@ -291,13 +303,17 @@
 				52E3D2281E7F14320064B02E /* FeedBookTableViewCell.swift in Sources */,
 				52FB4BE11ECFE256002B2E93 /* SuggestionCollectionViewCell.swift in Sources */,
 				52E3D2261E7F136C0064B02E /* FeedTableViewController.swift in Sources */,
+				45A2235724CF241A00993FF5 /* SceneDelegate.swift in Sources */,
 				52FDBCE71E877B0A00A59876 /* BookImagesHeaderView.swift in Sources */,
 				52E3D22E1E7F32FD0064B02E /* BookDetailTableViewController.swift in Sources */,
+				45A2235324CF238A00993FF5 /* PostTableViewController.swift in Sources */,
+				45A2235124CF234B00993FF5 /* PostTableViewCell.swift in Sources */,
 				4517A0CE24CC9A70009055F4 /* UITextField.swift in Sources */,
 				4517A0CB24CC7838009055F4 /* SigninViewController.swift in Sources */,
 				4517A0D824CD5FE9009055F4 /* MainCollectionViewCell.swift in Sources */,
 				52F7B6161E7F9F7E00735A46 /* CheckoutTableViewController.swift in Sources */,
 				52FB4BDF1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift in Sources */,
+				45A2235524CF23AD00993FF5 /* Post.swift in Sources */,
 				45A2234E24CEF87000993FF5 /* LibraryCollectionViewCell.swift in Sources */,
 				4517A0D624CD546C009055F4 /* MainPageTableViewCell.swift in Sources */,
 			);
