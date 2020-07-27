@@ -8,6 +8,8 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
+@available(iOS 13.0, *)
 class PostTableViewController: UITableViewController {
 
     var posts = [Post]()
@@ -154,13 +156,13 @@ class PostTableViewController: UITableViewController {
         // MARK: - Navigation
 
         // In a storyboard-based application, you will often want to do a little preparation before navigation
-//        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//            if let row = tableView.indexPathForSelectedRow?.row, let controller = segue.destination as? PostDetailViewController {
-//                let post = posts[row]
-//                controller.post = post
-//            }
-//
-//        }
-//
-//
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if let row = tableView.indexPathForSelectedRow?.row, let controller = segue.destination as? PostDetailViewController {
+                let post = posts[row]
+                controller.post = post
+            }
+
+        }
+
+
     }
