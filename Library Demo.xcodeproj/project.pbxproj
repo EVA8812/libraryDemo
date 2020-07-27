@@ -99,6 +99,15 @@
 			path = error;
 			sourceTree = "<group>";
 		};
+		45A2234F24CF1C8A00993FF5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				45A2234D24CEF87000993FF5 /* LibraryCollectionViewCell.swift */,
+				45A2234524CEE60600993FF5 /* LibraryViewController.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		45F09520247E335700B84F39 /* MAIN PAGE */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,8 +141,7 @@
 				52E3D21D1E7F0D990064B02E /* Info.plist */,
 				52E3D2111E7F0D990064B02E /* AppDelegate.swift */,
 				52E3D2151E7F0D990064B02E /* Main.storyboard */,
-				45A2234524CEE60600993FF5 /* LibraryViewController.swift */,
-				45A2234D24CEF87000993FF5 /* LibraryCollectionViewCell.swift */,
+				45A2234F24CF1C8A00993FF5 /* Library */,
 				52E3D2331E7F43FD0064B02E /* MODEL */,
 				4517A0CC24CC9A42009055F4 /* Login */,
 				45F09520247E335700B84F39 /* MAIN PAGE */,
