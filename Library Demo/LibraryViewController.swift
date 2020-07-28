@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class LibraryViewController: UIViewController {
 
     @IBOutlet weak var sliderCollectionView: UICollectionView!
@@ -24,8 +25,8 @@ class LibraryViewController: UIViewController {
                         ]
     var imgFunc = [ UIImage(named:"fu4"), UIImage(named:"fu2") ,
                     UIImage(named:"fu3") ,
-                    UIImage(named:"fu1"), UIImage(named:"fu5") , UIImage(named:"fu6") ]
-    var lalFunc = ["圖書館導覽","館藏介紹","租用討論室","影音借閱","失物招領","交通動線"]
+                    UIImage(named:"fu1"), UIImage(named:"fu5") , UIImage(named:"fu6"), UIImage(named:"blank")]
+    var lalFunc = ["圖書館導覽","館藏介紹","租用討論室","影音借閱","失物招領","交通動線",""]
         
         var timer = Timer()
         var counter = 0
@@ -40,7 +41,7 @@ class LibraryViewController: UIViewController {
             pageView.numberOfPages = imgSlider.count
             pageView.currentPage = 0
             DispatchQueue.main.async {
-                self.timer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
+                self.timer = Timer.scheduledTimer(timeInterval: 3.5, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
             }
         }
 
@@ -65,10 +66,18 @@ class LibraryViewController: UIViewController {
         }
             
         }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let row = collectionView.indexPathForSelectedRow?.row, let controller = segue.destination as? LibraryDetailViewController {
+//            let post = posts[row]
+//            controller.post = post
+//        }
+//
+//    }
 
     }
 
-    extension LibraryViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+
+extension LibraryViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
             if collectionView == self.sliderCollectionView{
                 return imgSlider.count
@@ -90,11 +99,18 @@ class LibraryViewController: UIViewController {
                 return cellFunc
             }
             }
+//        func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//            let mainStoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//            let vc = mainStoryboard.instantiateViewController(withIdentifier : "LibraryDetailViewController") as? LibraryDetailViewController
+//            vc?.image = imgFunc[indexPath.row]!
+//            self.navigationController?.pushViewController(vc! , animated: true)
+//    }
            
         }
     
 
-    extension LibraryViewController: UICollectionViewDelegateFlowLayout {
+
+extension LibraryViewController: UICollectionViewDelegateFlowLayout {
 
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
             
